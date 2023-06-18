@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#content_page{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+#header{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#google_faq{
+    width: 20%;
+    height: 100%;
+    /* background-color: coral; */
+}
+#google_faq ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-inline-start:0;
+    margin-block-start: 0;
+    padding-left: 6%;
+    list-style: none;
+}
+#google_faq li{
+    display: flex;
+    align-items: center;
+    margin: 0 2% 0 2%;
+}
+#user{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+#icon_header1{
+    width: 2.5vw;
+    height: 2.5vh;
+}
+#icon_header2{
+    width: 2vw;
+    height: 2.5vh;
+    border-radius: 100px;
+}
+#user ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding-inline-start:0;
+    margin-block-start: 0;
+}
+#user li{
+    display: flex;
+    align-items: center;
+    margin: 0 2% 0 2%;
+}
+#container_spacing{
+    width: 100vw;
+    height: 85vh;
+    /* background-color: bisque; */
+}
+#container{
+    width: 40vw;
+    height: 50vh;
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+#logo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: rgb(77, 20, 20); */
+
+}
+#logo img{
+    /* height: 100%; */
+    width: 60%;
+}
+#search{
+    width: 100%;
+    height: 16.63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+#search_box{
+    width: 90%;
+    height: 70%;
+    border: 1px #ebedef solid;
+    border-radius: 100px;
+    padding: 0 1% 0 1%;
+    display: flex;
+    align-items: center;
+}
+#contain_text_box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.icon_search{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_search_icon{
+    height: 50%;
+    width: 50%;
+}
+#text_box{
+    width: 100%;
+    height: 60%;
+    border: none;
+    outline: none;
+    /* width: ; */
+}
+#option_search{
+    width: 100%;
+    height: 16.63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+.button_search{
+    width: 28%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1% 0 1%;
+    background-color: #f8f9fa;
+    border-radius: 4%;
+}
+#language{
+    width: 100%;
+    height: 16.63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: coral; */
+}
+#language ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding-inline-start:0;
+    margin-block-start: 0;
+}
+#language li{ 
+    margin: 0 1% 0 1%;
+}
+#language a{
+    text-decoration: none;
+}
+#footer{
+    width: 100vw;
+    height: 9vh;
+    background-color: #f2f2f2;
+    /* background-color: crimson; */
+}
+#laguage_selected{
+    width: 97vw;
+    height: 49%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.9em;
+    padding-left: 3%;
+    color: #959799;
+    border-bottom: 1px #dedfe3 solid;
+    /* background-color: darkolivegreen; */
+}
+
+#footer_content{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    color: #8d9099;
+    font-size: 0.8em;
+    
+    /* background-color: rgb(22, 51, 61) */
+}
+#terms1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    /* background-color:blue ; */
+}
+#emision{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+#emision img{
+    height: 24%;
+    margin-right: 1%;
+}
+
+#terms2{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    padding-right: 1.5%;
+    /* background-color: brown; */
+}
+#terms1 ul, #terms2 ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+}
+#terms1 ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#terms2 ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+    
+#terms1 li, #terms2 li{
+    margin: 0 2% 0 2%;
+}
